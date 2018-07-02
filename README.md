@@ -1,7 +1,9 @@
-# jaarkaart
+# De Verbeelde Stad 
 
-What did Amsterdam look like in your year of choice?
+This Adamlink sample app:
 
-This Adamlink Lab application queries for the buildings that existed in a particular year. It wil also name the building as it was known in that year (when we have that data, of course).
+- gives access to depictions of Amsterdam in pain, print or pencil from the collections of several Amsterdam GLAM institutions
+- SPARQLs within a boundingbox
+- shows the benefits of the Art & Architecture Thesaurus when querying over multiple collections
 
 Being a lab application, it's rather quick & dirty. It's a php / js application, should run on any php server.
