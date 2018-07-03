@@ -29,7 +29,7 @@
 		#parameterbar{
 			background-color: #000;
 			padding-top: 40px;
-			padding-bottom: 40px;
+			padding-bottom: 20px;
 			color: #fff;
 		}
 		h1{
@@ -38,6 +38,7 @@
 		#map {
 			width: 100%;
 			height: 250px;
+			margin-bottom: 20px;
 		}
 		.leaflet-left .leaflet-control{
 			margin-top: 10px;
@@ -64,8 +65,11 @@
 			color: #fff;
 			border-color: #fff;
 		}
-		button:focus, input:focus {
+		button:focus, input:focus, .btn-primary:focus {
 			outline:0;
+			background-color: #fff;
+			color: #000;
+			border-color: #fff;
 		}
 		label{
 			font-weight: 300;
@@ -136,9 +140,10 @@
 		<input type="radio" value="300028051" name="techniek" id="boeken" /> 
 		<label for="boeken">boeken</label><br />
 
-		*/ ?>
+		
 
 		<a id="locate" style="color: #fff; cursor: pointer;">breng kaart naar mijn positie</a><br /><br />
+		*/ ?>
 		
 		<select name="typering" class="form-control">
 			<option value="all">alle typen afbeeldingen</option>
@@ -243,7 +248,7 @@
 		
 		//parameters['type'] = $("input[name='techniek']:checked").val();
 		parameters['type'] = $("select[name='typering']").val();
-		console.log(parameters);
+		//console.log(parameters);
 
 		sethash();
 
