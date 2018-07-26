@@ -71,7 +71,8 @@ $datasets=array(
 	"https://data.adamlink.nl/uva/maps" => "UvA",
 	"https://data.adamlink.nl/saa/beeldbank/" => "SAA",
 	"https://data.adamlink.nl/rma/beeldbank/" => "RMA",
-	"https://data.adamlink.nl/nharchief/beeldbank/" => "NHA"
+	"https://data.adamlink.nl/nharchief/beeldbank/" => "NHA",
+	"https://data.adamlink.nl/oba/amcat/" => "OBA"
 );
 
 $names = array();
