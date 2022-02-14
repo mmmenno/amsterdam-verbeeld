@@ -25,6 +25,7 @@ $sparqlquery .= '
 }
 $sparqlquery .= '
   ?cho void:inDataset ?dataset .
+  MINUS { ?cho void:inDataset <https://data.adamlink.nl/am/amcollect/> .}
   ?cho dct:spatial ?spatial .
   OPTIONAL {
   	?cho dc:title ?title .
